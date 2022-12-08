@@ -45,8 +45,6 @@ namespace Gruppsex
             label3.Text = "Color";
             label4.Text = "Species";
 
-            //TEST
-
             conn.Open();
 
             MySqlDataReader reader = cmd.ExecuteReader();
@@ -62,5 +60,19 @@ namespace Gruppsex
 
             conn.Close();
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            Form2 f2 = new Form2();
+            f2.ShowDialog();
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            Form3 f3 = new Form3();
+            f3.ShowDialog();
+        }
+
+
     }
 }
