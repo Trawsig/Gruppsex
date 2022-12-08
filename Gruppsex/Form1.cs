@@ -26,6 +26,7 @@ namespace Gruppsex
 
             //Och det här gör så att fönstret poppar upp 
             addAnimal.ShowDialog();
+            //test
         }
     }
 }
