@@ -45,6 +45,8 @@ namespace Gruppsex
             label3.Text = "Color";
             label4.Text = "Species";
 
+            //TEST
+
             conn.Open();
 
             MySqlDataReader reader = cmd.ExecuteReader();
