@@ -16,5 +16,16 @@ namespace Gruppsex
         {
             InitializeComponent();
         }
+
+        private void btnNew_Click(object sender, EventArgs e)
+        {
+            //Här har vi vad som händer när man trycker på new
+
+            //först lägger jag till classen eller form saken
+            AddAnimal addAnimal = new AddAnimal();
+
+            //Och det här gör så att fönstret poppar upp 
+            addAnimal.ShowDialog();
+        }
     }
 }
