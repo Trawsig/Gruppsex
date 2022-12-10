@@ -41,23 +41,23 @@
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(12, 432);
+            this.button1.Location = new System.Drawing.Point(12, 179);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(148, 53);
             this.button1.TabIndex = 0;
             this.button1.Text = "Add";
             this.button1.UseVisualStyleBackColor = true;
-            this.button1.Click += new System.EventHandler(this.button1_Click);
+            this.button1.Click += new System.EventHandler(this.button2_Click);
             // 
             // button2
             // 
-            this.button2.Location = new System.Drawing.Point(12, 491);
+            this.button2.Location = new System.Drawing.Point(12, 238);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(148, 53);
             this.button2.TabIndex = 1;
             this.button2.Text = "Update/Remove";
             this.button2.UseVisualStyleBackColor = true;
-            this.button2.Click += new System.EventHandler(this.button2_Click);
+            this.button2.Click += new System.EventHandler(this.button1_Click);
             // 
             // panel1
             // 
@@ -68,7 +68,7 @@
             this.panel1.Controls.Add(this.label2);
             this.panel1.Location = new System.Drawing.Point(214, 12);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(428, 530);
+            this.panel1.Size = new System.Drawing.Size(428, 279);
             this.panel1.TabIndex = 3;
             // 
             // label3
@@ -127,7 +127,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(664, 556);
+            this.ClientSize = new System.Drawing.Size(664, 313);
             this.Controls.Add(this.comboBox1);
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.button2);
